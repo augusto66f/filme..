@@ -1,0 +1,84 @@
+body {
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);            
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+
+img {
+    width: 300px;             
+    margin: 20px 0;
+}
+
+
+a {
+    color: #ff0000;          
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+h1, h2 {
+    margin-top: 30px;
+    color: blue;
+}
+
+.A1 {
+    background: linear-gradient(135deg, #f0f8ff, #e6f0ff);
+    width: 60%;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 40px auto;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    
+}
+
+.logo {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.logo img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+.botoes {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.botao {
+    background-color: #ff0000;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #cc0000;
+    transform: scale(1.05);
+}
+.destaque {
+    color: red;
+    font-weight: bold;
+}
+.play-music{
+    background-color: blue;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
